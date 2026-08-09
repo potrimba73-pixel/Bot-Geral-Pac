@@ -1,0 +1,32 @@
+{
+  "name": "pac-bot-geral",
+  "type": "module",
+  "version": "3.0.0",
+  "description": "PAC Bot Geral - Assistente IA, Logs, Trucky e Comandos da Portugal Alfa Community",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "deploy": "node src/commands/register.js"
+  },
+  "engines": {
+    "node": ">=18.0.0 <24.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "axios": "^1.7.0",
+    "mongodb": "^6.8.0",
+    "@napi-rs/canvas": "^0.1.65"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "portugal-alfa",
+    "trucky",
+    "ets2",
+    "vtc",
+    "assistant"
+  ],
+  "author": "Arteex",
+  "license": "MIT"
+}
