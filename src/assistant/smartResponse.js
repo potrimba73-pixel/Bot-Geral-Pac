@@ -172,7 +172,3 @@ export async function handleSmartResponse(message, client) {
     console.error("[SmartResponse] Erro ao enviar sugestao:", err.message);
   }
 }
-
-
-
-📁 Bot.pac-pat-main\src\commands/
