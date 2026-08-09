@@ -1,7 +1,7 @@
-import { logExternalMemberLeave } from "../services/externalLogs.js";
+import { logExternalMemberJoin } from "../services/externalLogs.js";
 
-export async function handleGuildMemberRemove(member, client) {
+export async function handleGuildMemberAdd(member, client) {
   try {
-    await logExternalMemberLeave(member);
+    await logExternalMemberJoin(member);
   } catch (e) {}
 }
