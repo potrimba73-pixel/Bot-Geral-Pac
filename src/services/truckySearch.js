@@ -89,7 +89,3 @@ export function createTruckyProfileEmbed(profile, searchedName) {
 
   return embed;
 }
-
-
-
-📁 Bot.pac-pat-main\src\utils/
