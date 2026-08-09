@@ -182,7 +182,3 @@ export function encontrarTutorialPAC(pergunta) {
     }
     return null;
 }
-
-
-
-📁 Bot.pac-pat-main\src\events/
