@@ -171,7 +171,3 @@ function getDirectionEmoji(heading) {
     if (heading >= 292.5 && heading < 337.5) return "↖️";
     return "⬆️";
 }
-
-
-
-📁 Bot.pac-pat-main\src\config/
