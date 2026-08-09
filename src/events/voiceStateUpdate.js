@@ -38,7 +38,3 @@ export default {
     await sendExternalLog(client, embed);
   }
 };
-
-
-
-📁 Bot.pac-pat-main\src\services/
